@@ -67,6 +67,14 @@
     version='6.18.37-haos',
   )
 # ---
+# name: test_get_device_availabilities
+  LibrenmsDeviceAvailabilities(
+    last_day=100.0,
+    last_month=99.991,
+    last_week=99.988,
+    last_year=99.816,
+  )
+# ---
 # name: test_get_devices
   list([
     LibrenmsDeviceInfo(
